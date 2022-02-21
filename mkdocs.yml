@@ -1,3 +1,6 @@
-site_name: DoY Data Guide
+site_name: FAIR Handbook
 theme:
   name: material
+  palette:
+    primary: teal
+    accent: teal
