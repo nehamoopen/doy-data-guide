@@ -4,3 +4,10 @@ theme:
   palette:
     primary: teal
     accent: teal
+  features:
+    - navigation.tabs
+  icon:
+    repo: fontawesome/brands/git-alt
+
+repo_url: https://github.com/nehamoopen/doy-data-guide
+repo_name: nehamoopen/doy-fairhandbook
