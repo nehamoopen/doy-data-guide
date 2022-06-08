@@ -1,13 +1,24 @@
 site_name: FAIR Handbook
+
 theme:
   name: material
+  
+  features:
+  - navigation.tracking
+  - navigation.top
+  - toc.follow
+  
   palette:
     primary: teal
     accent: teal
-  features:
-    - navigation.tabs
-  icon:
-    repo: fontawesome/brands/git-alt
 
-repo_url: https://github.com/nehamoopen/doy-data-guide
-repo_name: nehamoopen/doy-fairhandbook
+  plugins:
+  - search
+  - tags
+
+  markdown_extensions:
+  - attr_list
+  - md_in_html
+
+  repo_url: https://github.com/nehamoopen/doy-data-guide
+  repo_name: nehamoopen/doy-fairhandbook
