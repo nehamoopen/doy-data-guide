@@ -20,5 +20,5 @@ theme:
   - attr_list
   - md_in_html
 
-  repo_url: https://github.com/nehamoopen/doy-data-guide
-  repo_name: nehamoopen/doy-fairhandbook
+repo_url: https://github.com/nehamoopen/doy-data-guide
+repo_name: nehamoopen/doy-fairhandbook
