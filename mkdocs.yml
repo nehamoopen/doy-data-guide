@@ -20,7 +20,7 @@ theme:
     - search
     - tags
     - git-revision-date-localized:
-        type: timeago
+        type: iso_datetime
 
   markdown_extensions:
     - attr_list
