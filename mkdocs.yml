@@ -1,25 +1,69 @@
-site_name: FAIR Handbook
+site_name: DoY Data Guide
+site_description: A Data Guide for Dynamics of Youth at Utrecht Univetsity.
+site_author: Neha Moopen
+site_url: https://nehamoopen.github.io/doy-data-guide
 
 theme:
   name: material
   
   features:
   # - navigation.sections
-  - navigation.tracking
-  - navigation.top
-  - toc.follow
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
   
   palette:
-    primary: teal
-    accent: teal
+    # Light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
   plugins:
-  - search
-  - tags
+    - search
+    - tags
+    - git-revision-date-localized:
+        type: timeago
 
   markdown_extensions:
-  - attr_list
-  - md_in_html
+    - attr_list
+    - md_in_html
 
 repo_url: https://github.com/nehamoopen/doy-data-guide
-repo_name: nehamoopen/doy-fairhandbook
+repo_name: nehamoopen/doy-data-guide
+
+nav:
+  - Welcome!: index.md
+  - Jargon:
+      - The FAIR Principles:
+          - Findability: the-fair-principles/findability.md
+          - Accessibility: the-fair-principles/accessibility.md
+          - Interoperability: the-fair-principles/interoperability.md
+          - Reusability: the-fair-principles/reusability.md
+  - RDM in Practice:
+    - rdm-in-practice/data-management-planning.md
+    - rdm-in-practice/fair-assessment-checklists.md
+    - rdm-in-practice/folder-structure.md
+    - rdm-in-practice/file-and-folder-naming.md
+    - rdm-in-practice/data-collection.md
+    - rdm-in-practice/data-pipelining.md
+    - rdm-in-practice/metadata.md
+    - rdm-in-practice/codebooks.md
+    - rdm-in-practice/documentation.md
+    - rdm-in-practice/data-storage.md
+    - rdm-in-practice/data-archiving.md
+    - rdm-in-practice/data-publication.md
+    - rdm-in-practice/data-sharing.md
+
