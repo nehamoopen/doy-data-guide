@@ -16,15 +16,15 @@ theme:
     primary: teal
     accent: teal
 
-  plugins:
-    - search
-    - tags
-    - git-revision-date-localized:
-        type: iso_datetime
+plugins:
+  - search
+  - tags
+  - git-revision-date-localized:
+      type: iso_datetime
 
-  markdown_extensions:
-    - attr_list
-    - md_in_html
+markdown_extensions:
+  - attr_list
+  - md_in_html
 
 repo_url: https://github.com/nehamoopen/doy-data-guide
 repo_name: nehamoopen/doy-data-guide
