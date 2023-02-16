@@ -25,30 +25,34 @@ plugins:
 markdown_extensions:
   - attr_list
   - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 repo_url: https://github.com/nehamoopen/doy-data-guide
 repo_name: nehamoopen/doy-data-guide
 
 nav:
-  - Welcome!: index.md
-  - Jargon:
-      - The FAIR Principles:
-          - Findability: the-fair-principles/findability.md
-          - Accessibility: the-fair-principles/accessibility.md
-          - Interoperability: the-fair-principles/interoperability.md
-          - Reusability: the-fair-principles/reusability.md
-  - RDM in Practice:
-    - rdm-in-practice/data-management-planning.md
-    - rdm-in-practice/fair-assessment-checklists.md
-    - rdm-in-practice/folder-structure.md
-    - rdm-in-practice/file-and-folder-naming.md
-    - rdm-in-practice/data-collection.md
-    - rdm-in-practice/data-pipelining.md
-    - rdm-in-practice/metadata.md
-    - rdm-in-practice/codebooks.md
-    - rdm-in-practice/documentation.md
-    - rdm-in-practice/data-storage.md
-    - rdm-in-practice/data-archiving.md
-    - rdm-in-practice/data-publication.md
-    - rdm-in-practice/data-sharing.md
+  - index.md
+  - data-management-planning.md
+  - naming-conventions.md
+  - folder-structures.md
+  - storage-and-backup.md
+  - data-collection.md
+  - data-pipelining.md
+  - data-cleaning.md
+  - preregistration.md
+  - reproducibility.md
+  - reference-management.md
+  - codebooks.md
+  - metadata.md
+  - documentation.md
+  - archiving.md
+  - publishing.md
+  - preprints.md
+  - licenses.md
+  - file-formats.md
+  - data-sharing.md
+  - outreach.md
+  - fair-assessment-checklists.md
 
